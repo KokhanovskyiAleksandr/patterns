@@ -63,7 +63,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -198,10 +197,10 @@
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
     <state x="-958" y="788" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582735087054" />
-    <state x="-1139" y="826" key="CommitChangelistDialog2" timestamp="1582736447290">
+    <state x="-1139" y="826" key="CommitChangelistDialog2" timestamp="1582792478933">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-1139" y="826" key="CommitChangelistDialog2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736447290" />
+    <state x="-1139" y="826" key="CommitChangelistDialog2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582792478933" />
     <state x="-1340" y="871" width="1240" height="700" key="DiffContextDialog" timestamp="1582792472890">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
@@ -243,10 +242,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1582727835030" />
-    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2" timestamp="1582736449554">
+    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2" timestamp="1582792482022">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736449554" />
+    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582792482022" />
     <state x="-1066" y="1055" key="com.intellij.ide.util.TipDialog" timestamp="1582736606003">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
