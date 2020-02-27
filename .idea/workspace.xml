@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfd7cf03-355d-4fdb-8685-a710e7f4948d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/context/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/Draft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/Moderator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/Publish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/states/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractFactory/Factory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractFactory/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractFactory/cars/Audi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractFactory/cars/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractFactory/cars/Mazda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractFactory/cars/Toyota.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractFactory/cars/marks/CarsMarks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/NextChanelButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/PowerOffButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/command/commands/PreviousChannelButton.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,18 +78,36 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="state.context" />
+      <recent name="state" />
       <recent name="strategy.paymentSystem" />
       <recent name="abstractFactory.cars" />
       <recent name="patterns.command" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Factory">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractFactory.Factory" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="state.Main" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Factory" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SystemRemoteController" />
@@ -154,7 +163,8 @@
       <workItem from="1582646517052" duration="10432000" />
       <workItem from="1582728070493" duration="5590000" />
       <workItem from="1582736605761" duration="269000" />
-      <workItem from="1582792316382" duration="258000" />
+      <workItem from="1582792316382" duration="1125000" />
+      <workItem from="1582795831787" duration="3207000" />
     </task>
     <task id="LOCAL-00001" summary="gitIgnore">
       <created>1582736272747</created>
@@ -184,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582792528960</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gitIgnore">
+      <created>1582792580360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582792580360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,11 +229,15 @@
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
     <state x="-1120" y="888" key="#Project_Structure/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582646845340" />
-    <state x="-907" y="945" key="#com.intellij.ide.util.MemberChooser" timestamp="1582735291252">
+    <state x="-907" y="945" key="#com.intellij.ide.util.MemberChooser" timestamp="1582796776865">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-907" y="945" key="#com.intellij.ide.util.MemberChooser/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582735291252" />
+    <state x="-907" y="945" key="#com.intellij.ide.util.MemberChooser/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582796776865" />
     <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582727769945" />
+    <state x="-887" y="1129" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582792923442">
+      <screen x="-1440" y="771" width="1440" height="900" />
+    </state>
+    <state x="-887" y="1129" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1440.771.1440.900/0.23.1920.1057@-1440.771.1440.900" timestamp="1582792923442" />
     <state x="518" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582727961110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -229,10 +250,10 @@
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
     <state x="-958" y="788" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582735087054" />
-    <state x="-1139" y="826" key="CommitChangelistDialog2" timestamp="1582792528780">
+    <state x="-1139" y="826" key="CommitChangelistDialog2" timestamp="1582792580148">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-1139" y="826" key="CommitChangelistDialog2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582792528780" />
+    <state x="-1139" y="826" key="CommitChangelistDialog2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582792580148" />
     <state x="-1340" y="871" width="1240" height="700" key="DiffContextDialog" timestamp="1582792472890">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
@@ -245,51 +266,52 @@
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
     <state x="-905" y="936" key="Github.UntrackedFilesDialog/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582735969017" />
-    <state width="699" height="245" key="GridCell.Tab.0.bottom" timestamp="1582736579987">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582799428874">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.bottom/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736579987" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582799428874" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582726130522" />
-    <state width="699" height="245" key="GridCell.Tab.0.center" timestamp="1582736579986">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582799428873">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.center/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736579986" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582799428873" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582726130521" />
-    <state width="699" height="245" key="GridCell.Tab.0.left" timestamp="1582736579985">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582799428872">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.left/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736579985" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582799428872" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582726130520" />
-    <state width="699" height="245" key="GridCell.Tab.0.right" timestamp="1582736579987">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582799428873">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state width="699" height="245" key="GridCell.Tab.0.right/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736579987" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582799428873" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582726130521" />
     <state x="-1232" y="804" key="SettingsEditor" timestamp="1582736751568">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
     <state x="-1232" y="804" key="SettingsEditor/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736751568" />
     <state x="208" y="33" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582728123474" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1582727835030">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1582798634009">
+      <screen x="-1440" y="771" width="1440" height="900" />
     </state>
+    <state width="500" height="445" key="SwitcherDM/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582798634009" />
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1582727835030" />
-    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2" timestamp="1582792530687">
+    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2" timestamp="1582792582150">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582792530687" />
-    <state x="-1066" y="1055" key="com.intellij.ide.util.TipDialog" timestamp="1582736606003">
+    <state x="-1120" y="962" key="Vcs.Push.Dialog.v2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582792582150" />
+    <state x="-1066" y="1055" key="com.intellij.ide.util.TipDialog" timestamp="1582795833993">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-1066" y="1055" key="com.intellij.ide.util.TipDialog/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736606003" />
-    <state x="-937" y="1145" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582736649190">
+    <state x="-1066" y="1055" key="com.intellij.ide.util.TipDialog/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582795833993" />
+    <state x="-937" y="1145" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582792636917">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-937" y="1145" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582736649190" />
-    <state x="-1055" y="967" width="670" height="676" key="search.everywhere.popup" timestamp="1582731375699">
+    <state x="-937" y="1145" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582792636917" />
+    <state x="-1055" y="967" width="670" height="676" key="search.everywhere.popup" timestamp="1582797523514">
       <screen x="-1440" y="771" width="1440" height="900" />
     </state>
-    <state x="-1055" y="967" width="670" height="676" key="search.everywhere.popup/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582731375699" />
+    <state x="-1055" y="967" width="670" height="676" key="search.everywhere.popup/-1440.771.1440.900/0.0.1920.1080@-1440.771.1440.900" timestamp="1582797523514" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582728117124" />
   </component>
   <component name="XDebuggerManager">
